@@ -7,9 +7,6 @@ from itertools import chain
 import json
 
 
-# api key mox5IwwFlj88GHc2YEGexl4W3
-# api sec key NrRA8OKcrUODvTXVXm0K1afGiwehNMDAKzmAXdu9uiAB00AGRl
-# bearer token AAAAAAAAAAAAAAAAAAAAADs8aQEAAAAAAbmaHFeSIOwSO3pg%2B%2FBdCP5Gd7U%3D6AKkydGjvd0bkSaORXQFFV9wK98fNM3e8NepqdRGuJnMcyjX5I
 def Find(string):
     # findall() has been used
     # with valid conditions for urls in string
@@ -58,7 +55,7 @@ def thumbnailGrabber(video_input_path, img_output_path):
             continue
 
 if __name__ == '__main__':
-    token = "AAAAAAAAAAAAAAAAAAAAADs8aQEAAAAAAbmaHFeSIOwSO3pg%2B%2FBdCP5Gd7U%3D6AKkydGjvd0bkSaORXQFFV9wK98fNM3e8NepqdRGuJnMcyjX5I"
+    token = "TOKEN GOES HERE"
     qry = input("What do u wanna mass download?: ")
     mainList = []
     for i in range(100):
